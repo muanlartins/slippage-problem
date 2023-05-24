@@ -9,7 +9,7 @@ from datetime import datetime
 AMOUNT = 1
 
 # Minutes collecting data from bitstamp
-MINUTES = 32
+MINUTES = 180
 
 bitstamp_endpoint = 'wss://ws.bitstamp.net'
 data = []
