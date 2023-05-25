@@ -8,6 +8,7 @@ MAX_TIME = 0
 
 data = {}
 slippages = { 'bids': [], 'asks': []}
+dp = {}
 
 def read_data():
   global data, MAX_TIME
@@ -19,25 +20,33 @@ def read_data():
 
   f.close()
 
-def find_entry(time):
+def find_entry(time, index):
   global data
+
+  if time in dp: return dp[time]
 
   time_start = float(data[0]['timestamp'])
 
-  if not time: return data[0]
+  if not time: return (data[0], index)
 
-  for i in range(len(data)):
-    if int(data[i]['microtimestamp'])/10**6 - time_start > time:
-      return data[i-1]
+  while index < len(data):
+    if int(data[index]['microtimestamp'])/10**6 - time_start > time:
+      dp[time] = (data[index-1], index)
+      return dp[time]
+    
+    index += 1
 
 def calculate_slippages():
   global slippages
 
   time = 0
 
+  first_index = 0
+  second_index = 0
+
   while time < MAX_TIME - TIME_WINDOW:
-    first_entry = find_entry(time)
-    second_entry = find_entry(time + TIME_WINDOW)
+    (first_entry, first_index) = find_entry(time, first_index)
+    (second_entry, second_index) = find_entry(time + TIME_WINDOW, second_index)
 
     time += 1
 
