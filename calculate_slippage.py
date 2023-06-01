@@ -6,8 +6,13 @@ TIME_WINDOW = 5
 # Max time
 MAX_TIME = 0
 
+# Load bitstamp data
 data = {}
+
+# Store slippages to use for statistics calculation
 slippages = { 'bids': [], 'asks': []}
+
+# Dynamic programming to save average prices for determined timestamps
 dp = {}
 
 def read_data():
@@ -49,12 +54,14 @@ def calculate_slippages():
     (second_entry, second_index) = find_entry(time + TIME_WINDOW, second_index)
 
     time += 1
+    # time += TIME_WINDOW
 
     bids_slippage = first_entry['average_bids_price'] - second_entry['average_bids_price']
     asks_slippage = first_entry['average_asks_price'] - second_entry['average_asks_price']
     slippages['bids'].append(bids_slippage)
     slippages['asks'].append(asks_slippage)
 
+  slippages['sample_size'] = len(slippages['bids'])
   
   f = open('slippages.json', 'w')
   f.write(str(json.dumps(slippages)))

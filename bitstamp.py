@@ -8,13 +8,15 @@ from datetime import datetime
 # Desired amount of BTC
 AMOUNT = 1
 
-# Minutes collecting data from bitstamp
-MINUTES = 180
+# Time collecting data from bitstamp
+HOURS = 0
+MINUTES = 1
+SECONDS = 0
 
-bitstamp_endpoint = 'wss://ws.bitstamp.net'
-data = []
+# Keeps all the BTC/USD prices
 prices = []
-f = 0
+
+# Register the first microtimestamp
 first_microtimestamp = 0
 
 def calculate_average_price(entry, side):
@@ -43,17 +45,15 @@ def subscribe_marketdata(ws):
         'channel': 'order_book_btcusd'
     }
   }
-  market_depth_subscription = json.dumps(params)
+  order_book_subscription = json.dumps(params)
 
-  ws.send(market_depth_subscription)
-
+  ws.send(order_book_subscription)
 
 def on_open(ws):
-  print('web-socket connected.')
   subscribe_marketdata(ws)
 
 def on_message(ws, response):
-  global data, f, first_microtimestamp
+  global first_microtimestamp
 
   data = json.loads(response)['data']
 
@@ -62,21 +62,24 @@ def on_message(ws, response):
   del data['bids']
   del data['asks']
 
-  timestamp = int(data['timestamp'])
   microtimestamp = int(data['microtimestamp'])
-
-  prices.append(data)
 
   if not first_microtimestamp: first_microtimestamp = microtimestamp
 
   time_elapsed = (microtimestamp - first_microtimestamp)/(10**6)
 
-  print(time_elapsed)
+  if len(prices) == 0 or (
+      prices[len(prices)-1]['average_bids_price'] != data['average_bids_price'] 
+      and 
+      prices[len(prices)-1]['average_asks_price'] != data['average_asks_price']
+    ) or time_elapsed > HOURS*3600 + MINUTES*60 + SECONDS: 
+    prices.append(data)
+    print(time_elapsed)
 
-  if time_elapsed > MINUTES*60:
+  if time_elapsed > HOURS*3600 + MINUTES*60 + SECONDS:
     f = open('historical_prices_bitstamp.json', 'w')
 
-    bitstamp_data = { 'data': prices, 'max_time': MINUTES*60 }
+    bitstamp_data = { 'data': prices, 'max_time': HOURS*3600 + MINUTES*60 + SECONDS }
     bitstamp_json = json.dumps(bitstamp_data)
     f.write(str(bitstamp_json))
 
@@ -88,5 +91,5 @@ def on_error(ws, msg):
   print(msg)
 
 if __name__ == '__main__':
-  marketdata_ws = websocket.WebSocketApp(bitstamp_endpoint, on_open=on_open, on_message=on_message, on_error=on_error)
+  marketdata_ws = websocket.WebSocketApp('wss://ws.bitstamp.net', on_open=on_open, on_message=on_message, on_error=on_error)
   marketdata_ws.run_forever(sslopt={'cert_reqs': ssl.CERT_NONE})

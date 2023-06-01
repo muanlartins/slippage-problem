@@ -1,0 +1,660 @@
+{
+    "data": [
+        {
+            "average_asks_price": 27899.716561039997,
+            "average_bids_price": 27888.58445348,
+            "microtimestamp": "1685310409009842",
+            "timestamp": "1685310409"
+        },
+        {
+            "average_asks_price": 27900.87656104,
+            "average_bids_price": 27888.584210610003,
+            "microtimestamp": "1685310410510228",
+            "timestamp": "1685310410"
+        },
+        {
+            "average_asks_price": 27900.746275999998,
+            "average_bids_price": 27889.13478537,
+            "microtimestamp": "1685310410610160",
+            "timestamp": "1685310410"
+        },
+        {
+            "average_asks_price": 27901.13727502,
+            "average_bids_price": 27889.148476529997,
+            "microtimestamp": "1685310411413449",
+            "timestamp": "1685310411"
+        },
+        {
+            "average_asks_price": 27901.67784505,
+            "average_bids_price": 27889.69795985,
+            "microtimestamp": "1685310411507832",
+            "timestamp": "1685310411"
+        },
+        {
+            "average_asks_price": 27901.66195285,
+            "average_bids_price": 27889.70263824,
+            "microtimestamp": "1685310412009869",
+            "timestamp": "1685310412"
+        },
+        {
+            "average_asks_price": 27901.50627287,
+            "average_bids_price": 27889.709491629998,
+            "microtimestamp": "1685310412814112",
+            "timestamp": "1685310412"
+        },
+        {
+            "average_asks_price": 27902.152342310004,
+            "average_bids_price": 27889.417705959997,
+            "microtimestamp": "1685310413412591",
+            "timestamp": "1685310413"
+        },
+        {
+            "average_asks_price": 27902.473097950002,
+            "average_bids_price": 27889.450825000004,
+            "microtimestamp": "1685310413508024",
+            "timestamp": "1685310413"
+        },
+        {
+            "average_asks_price": 27901.8845379,
+            "average_bids_price": 27889.69082978,
+            "microtimestamp": "1685310413611694",
+            "timestamp": "1685310413"
+        },
+        {
+            "average_asks_price": 27901.9309692,
+            "average_bids_price": 27889.72515453,
+            "microtimestamp": "1685310413707326",
+            "timestamp": "1685310413"
+        },
+        {
+            "average_asks_price": 27902.05640303,
+            "average_bids_price": 27889.525467589996,
+            "microtimestamp": "1685310414009146",
+            "timestamp": "1685310414"
+        },
+        {
+            "average_asks_price": 27901.995302019997,
+            "average_bids_price": 27889.48427789,
+            "microtimestamp": "1685310414213237",
+            "timestamp": "1685310414"
+        },
+        {
+            "average_asks_price": 27902.103702020002,
+            "average_bids_price": 27889.56313883,
+            "microtimestamp": "1685310414307647",
+            "timestamp": "1685310414"
+        },
+        {
+            "average_asks_price": 27901.88690202,
+            "average_bids_price": 27889.16970767,
+            "microtimestamp": "1685310414707507",
+            "timestamp": "1685310414"
+        },
+        {
+            "average_asks_price": 27901.618039899997,
+            "average_bids_price": 27889.21913081,
+            "microtimestamp": "1685310414907867",
+            "timestamp": "1685310414"
+        },
+        {
+            "average_asks_price": 27900.591925140005,
+            "average_bids_price": 27883.91685899,
+            "microtimestamp": "1685310415020739",
+            "timestamp": "1685310415"
+        },
+        {
+            "average_asks_price": 27901.93914476,
+            "average_bids_price": 27882.502003690002,
+            "microtimestamp": "1685310415108145",
+            "timestamp": "1685310415"
+        },
+        {
+            "average_asks_price": 27899.84445789,
+            "average_bids_price": 27882.471611510002,
+            "microtimestamp": "1685310415225198",
+            "timestamp": "1685310415"
+        },
+        {
+            "average_asks_price": 27896.46222249,
+            "average_bids_price": 27882.475944560003,
+            "microtimestamp": "1685310415307691",
+            "timestamp": "1685310415"
+        },
+        {
+            "average_asks_price": 27896.250494160002,
+            "average_bids_price": 27882.454078060007,
+            "microtimestamp": "1685310415507403",
+            "timestamp": "1685310415"
+        },
+        {
+            "average_asks_price": 27896.10699396,
+            "average_bids_price": 27882.54602991,
+            "microtimestamp": "1685310415707895",
+            "timestamp": "1685310415"
+        },
+        {
+            "average_asks_price": 27895.838086130003,
+            "average_bids_price": 27884.11640577,
+            "microtimestamp": "1685310419416319",
+            "timestamp": "1685310419"
+        },
+        {
+            "average_asks_price": 27895.62128613,
+            "average_bids_price": 27884.26640577,
+            "microtimestamp": "1685310419508123",
+            "timestamp": "1685310419"
+        },
+        {
+            "average_asks_price": 27894.701543410003,
+            "average_bids_price": 27884.08878442,
+            "microtimestamp": "1685310420107290",
+            "timestamp": "1685310420"
+        },
+        {
+            "average_asks_price": 27894.156759550002,
+            "average_bids_price": 27882.424511770005,
+            "microtimestamp": "1685310420218963",
+            "timestamp": "1685310420"
+        },
+        {
+            "average_asks_price": 27896.085918260003,
+            "average_bids_price": 27880.41128573,
+            "microtimestamp": "1685310420307420",
+            "timestamp": "1685310420"
+        },
+        {
+            "average_asks_price": 27892.945709470005,
+            "average_bids_price": 27880.398833990002,
+            "microtimestamp": "1685310420409508",
+            "timestamp": "1685310420"
+        },
+        {
+            "average_asks_price": 27892.659318039998,
+            "average_bids_price": 27880.576149940003,
+            "microtimestamp": "1685310420707390",
+            "timestamp": "1685310420"
+        },
+        {
+            "average_asks_price": 27892.756167760002,
+            "average_bids_price": 27879.727530000004,
+            "microtimestamp": "1685310421107196",
+            "timestamp": "1685310421"
+        },
+        {
+            "average_asks_price": 27892.69707766,
+            "average_bids_price": 27879.873348140005,
+            "microtimestamp": "1685310421307381",
+            "timestamp": "1685310421"
+        },
+        {
+            "average_asks_price": 27891.459358109998,
+            "average_bids_price": 27877.75458773,
+            "microtimestamp": "1685310421507370",
+            "timestamp": "1685310421"
+        },
+        {
+            "average_asks_price": 27893.60983117,
+            "average_bids_price": 27877.93202356,
+            "microtimestamp": "1685310421619164",
+            "timestamp": "1685310421"
+        },
+        {
+            "average_asks_price": 27891.497886079997,
+            "average_bids_price": 27877.94988313,
+            "microtimestamp": "1685310422509854",
+            "timestamp": "1685310422"
+        },
+        {
+            "average_asks_price": 27890.3189844,
+            "average_bids_price": 27877.95754807,
+            "microtimestamp": "1685310422813220",
+            "timestamp": "1685310422"
+        },
+        {
+            "average_asks_price": 27890.00991519,
+            "average_bids_price": 27878.4470294,
+            "microtimestamp": "1685310423809519",
+            "timestamp": "1685310423"
+        },
+        {
+            "average_asks_price": 27889.740927599996,
+            "average_bids_price": 27878.29131314,
+            "microtimestamp": "1685310425707679",
+            "timestamp": "1685310425"
+        },
+        {
+            "average_asks_price": 27889.05932394,
+            "average_bids_price": 27878.275358400002,
+            "microtimestamp": "1685310425813551",
+            "timestamp": "1685310425"
+        },
+        {
+            "average_asks_price": 27888.75704844,
+            "average_bids_price": 27878.56940527,
+            "microtimestamp": "1685310425907828",
+            "timestamp": "1685310425"
+        },
+        {
+            "average_asks_price": 27888.488067950002,
+            "average_bids_price": 27876.720040189994,
+            "microtimestamp": "1685310427029402",
+            "timestamp": "1685310427"
+        },
+        {
+            "average_asks_price": 27888.51687395,
+            "average_bids_price": 27876.24528179,
+            "microtimestamp": "1685310427414825",
+            "timestamp": "1685310427"
+        },
+        {
+            "average_asks_price": 27888.48425867,
+            "average_bids_price": 27875.94528179,
+            "microtimestamp": "1685310427507341",
+            "timestamp": "1685310427"
+        },
+        {
+            "average_asks_price": 27890.30425524,
+            "average_bids_price": 27875.62629122,
+            "microtimestamp": "1685310427612438",
+            "timestamp": "1685310427"
+        },
+        {
+            "average_asks_price": 27888.215472459997,
+            "average_bids_price": 27875.61348337,
+            "microtimestamp": "1685310427908136",
+            "timestamp": "1685310427"
+        },
+        {
+            "average_asks_price": 27887.452581640002,
+            "average_bids_price": 27874.881790030006,
+            "microtimestamp": "1685310428413258",
+            "timestamp": "1685310428"
+        },
+        {
+            "average_asks_price": 27887.34418164,
+            "average_bids_price": 27875.150795200003,
+            "microtimestamp": "1685310428613785",
+            "timestamp": "1685310428"
+        },
+        {
+            "average_asks_price": 27888.083033569997,
+            "average_bids_price": 27873.71892644,
+            "microtimestamp": "1685310428823149",
+            "timestamp": "1685310428"
+        },
+        {
+            "average_asks_price": 27888.05292107,
+            "average_bids_price": 27873.69612364,
+            "microtimestamp": "1685310428907351",
+            "timestamp": "1685310428"
+        },
+        {
+            "average_asks_price": 27886.740055479997,
+            "average_bids_price": 27873.708913640003,
+            "microtimestamp": "1685310429010386",
+            "timestamp": "1685310429"
+        },
+        {
+            "average_asks_price": 27886.76414548,
+            "average_bids_price": 27873.170919700002,
+            "microtimestamp": "1685310429107828",
+            "timestamp": "1685310429"
+        },
+        {
+            "average_asks_price": 27886.73628723,
+            "average_bids_price": 27873.109619159997,
+            "microtimestamp": "1685310429213501",
+            "timestamp": "1685310429"
+        },
+        {
+            "average_asks_price": 27886.467256950004,
+            "average_bids_price": 27873.15575326,
+            "microtimestamp": "1685310429307585",
+            "timestamp": "1685310429"
+        },
+        {
+            "average_asks_price": 27886.951724360002,
+            "average_bids_price": 27871.9193191,
+            "microtimestamp": "1685310429809786",
+            "timestamp": "1685310429"
+        },
+        {
+            "average_asks_price": 27885.63692527,
+            "average_bids_price": 27867.41711717,
+            "microtimestamp": "1685310429907802",
+            "timestamp": "1685310429"
+        },
+        {
+            "average_asks_price": 27881.57100926,
+            "average_bids_price": 27868.869463450003,
+            "microtimestamp": "1685310430011387",
+            "timestamp": "1685310430"
+        },
+        {
+            "average_asks_price": 27880.52516876,
+            "average_bids_price": 27868.305171530003,
+            "microtimestamp": "1685310430107210",
+            "timestamp": "1685310430"
+        },
+        {
+            "average_asks_price": 27880.85226095,
+            "average_bids_price": 27865.116151709997,
+            "microtimestamp": "1685310430408392",
+            "timestamp": "1685310430"
+        },
+        {
+            "average_asks_price": 27879.32709219,
+            "average_bids_price": 27865.817065009996,
+            "microtimestamp": "1685310430559443",
+            "timestamp": "1685310430"
+        },
+        {
+            "average_asks_price": 27879.74271903,
+            "average_bids_price": 27863.66377747,
+            "microtimestamp": "1685310431107616",
+            "timestamp": "1685310431"
+        },
+        {
+            "average_asks_price": 27883.58031034,
+            "average_bids_price": 27868.38532208,
+            "microtimestamp": "1685310431215447",
+            "timestamp": "1685310431"
+        },
+        {
+            "average_asks_price": 27883.311260039998,
+            "average_bids_price": 27870.0801177,
+            "microtimestamp": "1685310431413730",
+            "timestamp": "1685310431"
+        },
+        {
+            "average_asks_price": 27883.32300402,
+            "average_bids_price": 27870.002963299998,
+            "microtimestamp": "1685310431507266",
+            "timestamp": "1685310431"
+        },
+        {
+            "average_asks_price": 27883.31765114,
+            "average_bids_price": 27870.083024149997,
+            "microtimestamp": "1685310431610015",
+            "timestamp": "1685310431"
+        },
+        {
+            "average_asks_price": 27882.865085699996,
+            "average_bids_price": 27869.16491044,
+            "microtimestamp": "1685310431811129",
+            "timestamp": "1685310431"
+        },
+        {
+            "average_asks_price": 27881.481349799997,
+            "average_bids_price": 27869.314910439996,
+            "microtimestamp": "1685310431908015",
+            "timestamp": "1685310431"
+        },
+        {
+            "average_asks_price": 27882.187174059996,
+            "average_bids_price": 27869.312383359997,
+            "microtimestamp": "1685310432010856",
+            "timestamp": "1685310432"
+        },
+        {
+            "average_asks_price": 27881.230216179996,
+            "average_bids_price": 27867.7720424,
+            "microtimestamp": "1685310432107331",
+            "timestamp": "1685310432"
+        },
+        {
+            "average_asks_price": 27880.5764808,
+            "average_bids_price": 27867.521666210003,
+            "microtimestamp": "1685310432508751",
+            "timestamp": "1685310432"
+        },
+        {
+            "average_asks_price": 27879.59587773,
+            "average_bids_price": 27866.927131720004,
+            "microtimestamp": "1685310432809227",
+            "timestamp": "1685310432"
+        },
+        {
+            "average_asks_price": 27878.43587773,
+            "average_bids_price": 27865.96509111,
+            "microtimestamp": "1685310433208023",
+            "timestamp": "1685310433"
+        },
+        {
+            "average_asks_price": 27877.350435230004,
+            "average_bids_price": 27865.92922353,
+            "microtimestamp": "1685310433308125",
+            "timestamp": "1685310433"
+        },
+        {
+            "average_asks_price": 27877.317300469997,
+            "average_bids_price": 27866.19831834,
+            "microtimestamp": "1685310433408650",
+            "timestamp": "1685310433"
+        },
+        {
+            "average_asks_price": 27876.91368737,
+            "average_bids_price": 27862.42784191,
+            "microtimestamp": "1685310433707363",
+            "timestamp": "1685310433"
+        },
+        {
+            "average_asks_price": 27876.94304022,
+            "average_bids_price": 27863.86591349,
+            "microtimestamp": "1685310433814026",
+            "timestamp": "1685310433"
+        },
+        {
+            "average_asks_price": 27876.910229400008,
+            "average_bids_price": 27864.16591349,
+            "microtimestamp": "1685310433907211",
+            "timestamp": "1685310433"
+        },
+        {
+            "average_asks_price": 27877.127029400002,
+            "average_bids_price": 27864.13101352,
+            "microtimestamp": "1685310434707560",
+            "timestamp": "1685310434"
+        },
+        {
+            "average_asks_price": 27876.693429400006,
+            "average_bids_price": 27864.11170042,
+            "microtimestamp": "1685310435212451",
+            "timestamp": "1685310435"
+        },
+        {
+            "average_asks_price": 27876.635366200004,
+            "average_bids_price": 27863.87348094,
+            "microtimestamp": "1685310435307791",
+            "timestamp": "1685310435"
+        },
+        {
+            "average_asks_price": 27875.654146480003,
+            "average_bids_price": 27862.54375984,
+            "microtimestamp": "1685310436614627",
+            "timestamp": "1685310436"
+        },
+        {
+            "average_asks_price": 27875.32707324,
+            "average_bids_price": 27860.83045051,
+            "microtimestamp": "1685310437609272",
+            "timestamp": "1685310437"
+        },
+        {
+            "average_asks_price": 27875.696046159996,
+            "average_bids_price": 27860.53484506,
+            "microtimestamp": "1685310437708032",
+            "timestamp": "1685310437"
+        },
+        {
+            "average_asks_price": 27875.39115525,
+            "average_bids_price": 27860.69984506,
+            "microtimestamp": "1685310437907240",
+            "timestamp": "1685310437"
+        },
+        {
+            "average_asks_price": 27873.79125681,
+            "average_bids_price": 27860.53484506,
+            "microtimestamp": "1685310438016403",
+            "timestamp": "1685310438"
+        },
+        {
+            "average_asks_price": 27873.28117229,
+            "average_bids_price": 27860.69984506,
+            "microtimestamp": "1685310438210179",
+            "timestamp": "1685310438"
+        },
+        {
+            "average_asks_price": 27871.1646125,
+            "average_bids_price": 27860.53484506,
+            "microtimestamp": "1685310438615812",
+            "timestamp": "1685310438"
+        },
+        {
+            "average_asks_price": 27871.670184090002,
+            "average_bids_price": 27860.23374994,
+            "microtimestamp": "1685310438907393",
+            "timestamp": "1685310438"
+        },
+        {
+            "average_asks_price": 27869.868171320006,
+            "average_bids_price": 27860.398749940003,
+            "microtimestamp": "1685310439107206",
+            "timestamp": "1685310439"
+        },
+        {
+            "average_asks_price": 27869.124917119996,
+            "average_bids_price": 27860.22661948,
+            "microtimestamp": "1685310439212476",
+            "timestamp": "1685310439"
+        },
+        {
+            "average_asks_price": 27869.120830870004,
+            "average_bids_price": 27860.01510898,
+            "microtimestamp": "1685310439416312",
+            "timestamp": "1685310439"
+        },
+        {
+            "average_asks_price": 27866.6159659,
+            "average_bids_price": 27860.00238594,
+            "microtimestamp": "1685310442610085",
+            "timestamp": "1685310442"
+        },
+        {
+            "average_asks_price": 27864.41487955,
+            "average_bids_price": 27860.0,
+            "microtimestamp": "1685310443307277",
+            "timestamp": "1685310443"
+        },
+        {
+            "average_asks_price": 27864.46224085,
+            "average_bids_price": 27860.165,
+            "microtimestamp": "1685310444907724",
+            "timestamp": "1685310444"
+        },
+        {
+            "average_asks_price": 27864.4802914,
+            "average_bids_price": 27860.0,
+            "microtimestamp": "1685310445307203",
+            "timestamp": "1685310445"
+        },
+        {
+            "average_asks_price": 27863.413193700002,
+            "average_bids_price": 27860.0088579,
+            "microtimestamp": "1685310445707372",
+            "timestamp": "1685310445"
+        },
+        {
+            "average_asks_price": 27862.021937470003,
+            "average_bids_price": 27860.0,
+            "microtimestamp": "1685310445811126",
+            "timestamp": "1685310445"
+        },
+        {
+            "average_asks_price": 27861.0,
+            "average_bids_price": 27855.740420269998,
+            "microtimestamp": "1685310453026026",
+            "timestamp": "1685310453"
+        },
+        {
+            "average_asks_price": 27859.664411949998,
+            "average_bids_price": 27855.72848882,
+            "microtimestamp": "1685310453307842",
+            "timestamp": "1685310453"
+        },
+        {
+            "average_asks_price": 27860.27621232,
+            "average_bids_price": 27855.7440928,
+            "microtimestamp": "1685310453707528",
+            "timestamp": "1685310453"
+        },
+        {
+            "average_asks_price": 27859.200066190002,
+            "average_bids_price": 27855.82467301,
+            "microtimestamp": "1685310454218596",
+            "timestamp": "1685310454"
+        },
+        {
+            "average_asks_price": 27859.03506619,
+            "average_bids_price": 27855.7440928,
+            "microtimestamp": "1685310454510885",
+            "timestamp": "1685310454"
+        },
+        {
+            "average_asks_price": 27858.66160182,
+            "average_bids_price": 27855.83898022,
+            "microtimestamp": "1685310456812741",
+            "timestamp": "1685310456"
+        },
+        {
+            "average_asks_price": 27858.648539529997,
+            "average_bids_price": 27855.823376239998,
+            "microtimestamp": "1685310461507328",
+            "timestamp": "1685310461"
+        },
+        {
+            "average_asks_price": 27858.63434437,
+            "average_bids_price": 27855.847961209998,
+            "microtimestamp": "1685310462543201",
+            "timestamp": "1685310462"
+        },
+        {
+            "average_asks_price": 27858.978152199998,
+            "average_bids_price": 27855.89651928,
+            "microtimestamp": "1685310462907744",
+            "timestamp": "1685310462"
+        },
+        {
+            "average_asks_price": 27858.82734736,
+            "average_bids_price": 27855.847961209998,
+            "microtimestamp": "1685310463008928",
+            "timestamp": "1685310463"
+        },
+        {
+            "average_asks_price": 27858.9779327,
+            "average_bids_price": 27855.73846121,
+            "microtimestamp": "1685310463107904",
+            "timestamp": "1685310463"
+        },
+        {
+            "average_asks_price": 27859.796199340002,
+            "average_bids_price": 27855.82351928,
+            "microtimestamp": "1685310464016211",
+            "timestamp": "1685310464"
+        },
+        {
+            "average_asks_price": 27859.526960920004,
+            "average_bids_price": 27855.73846121,
+            "microtimestamp": "1685310464108284",
+            "timestamp": "1685310464"
+        },
+        {
+            "average_asks_price": 27858.547375060003,
+            "average_bids_price": 27855.73846121,
+            "microtimestamp": "1685310469107752",
+            
+            "timestamp": "1685310469"
+        }
+    ],
+    "max_time": 60
+}
