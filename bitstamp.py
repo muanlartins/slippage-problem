@@ -9,8 +9,8 @@ from datetime import datetime
 AMOUNT = 1
 
 # Time collecting data from bitstamp
-HOURS = 0
-MINUTES = 1
+HOURS = 4
+MINUTES = 0
 SECONDS = 0
 
 # Keeps all the BTC/USD prices

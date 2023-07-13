@@ -10,7 +10,7 @@ MAX_TIME = 0
 data = {}
 
 # Store slippages to use for statistics calculation
-slippages = { 'bids': [], 'asks': []}
+slippages = { 'bids': [], 'asks': [], 'bids_percentage': [], 'asks_percentage': [] }
 
 # Dynamic programming to save average prices for determined timestamps
 dp = {}
@@ -18,7 +18,7 @@ dp = {}
 def read_data():
   global data, MAX_TIME
 
-  f = open('historical_prices_bitstamp.json', 'r')
+  f = open('historical_prices_bitstamp_4h.json', 'r')
   file_data = json.loads(f.read())
   data = file_data['data']
   MAX_TIME = file_data['max_time']
@@ -59,11 +59,13 @@ def calculate_slippages():
     bids_slippage = first_entry['average_bids_price'] - second_entry['average_bids_price']
     asks_slippage = first_entry['average_asks_price'] - second_entry['average_asks_price']
     slippages['bids'].append(bids_slippage)
+    slippages['bids_percentage'].append(bids_slippage/first_entry['average_bids_price'])
     slippages['asks'].append(asks_slippage)
+    slippages['asks_percentage'].append(asks_slippage/first_entry['average_asks_price'])
 
   slippages['sample_size'] = len(slippages['bids'])
   
-  f = open('slippages.json', 'w')
+  f = open('slippages_4h.json', 'w')
   f.write(str(json.dumps(slippages)))
 
   f.close()
